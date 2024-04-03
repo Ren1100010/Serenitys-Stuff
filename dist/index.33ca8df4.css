@@ -4,20 +4,22 @@ body {
   background-color: #9370d887;
   justify-content: center;
   align-items: center;
+  font-family: Lilita One, sans-serif;
+  font-size: 100%;
   display: flex;
 }
 
 .bg {
   z-index: -1;
   aspect-ratio: 1;
-  background-color: #87562b;
-  grid-template-rows: repeat(7, minmax(50px, 100px));
-  grid-template-columns: repeat(7, minmax(50px, 100px));
-  min-width: 350px;
-  max-width: 700px;
+  background-color: #a7df93;
+  grid-template-rows: repeat(7, minmax(60px, 120px));
+  grid-template-columns: repeat(7, minmax(60px, 120px));
+  min-width: 420px;
+  max-width: 840px;
   height: 90vh;
-  min-height: 350px;
-  max-height: 700px;
+  min-height: 420px;
+  max-height: 820px;
   display: grid;
   position: absolute;
 }
@@ -25,59 +27,99 @@ body {
 .text-layer {
   z-index: 1;
   aspect-ratio: 1;
-  background-color: #6a265177;
-  grid-template-rows: repeat(7, minmax(50px, 100px));
-  grid-template-columns: repeat(7, minmax(50px, 100px));
-  min-width: 350px;
-  max-width: 700px;
+  grid-template-rows: repeat(7, minmax(60px, 120px));
+  grid-template-columns: repeat(7, minmax(60px, 120px));
+  min-width: 420px;
+  max-width: 840px;
   height: 90vh;
-  min-height: 350px;
-  max-height: 700px;
+  min-height: 420px;
+  max-height: 840px;
   display: grid;
   position: relative;
 }
 
 .serenity {
-  grid-area: 2 / 1 / 4 / 5;
+  text-align: center;
+  color: #755f45;
+  grid-area: 2 / 1 / auto / 5;
+  margin: 0;
+  font-size: 10vh;
+  display: table;
 }
 
 .williams {
-  grid-area: 4 / 1 / 6 / 5;
+  text-align: center;
+  color: #755f45;
+  grid-area: 3 / 1 / auto / 5;
+  height: 100%;
+  margin: 0;
+  font-size: 10vh;
+  display: table;
 }
 
 #block {
   aspect-ratio: 1;
-  background-color: bisque;
+  text-align: center;
+  color: #9c8d6f;
+  background-color: #f5d4a3;
+  border: 5px solid #d3bc8f;
   width: 100%;
+  min-width: 50px;
+  max-width: 100px;
+  height: 100%;
+  min-height: 50px;
+  max-height: 100px;
+  font-size: 5vh;
+  display: table;
 }
 
 #button {
   aspect-ratio: 1;
+  text-align: center;
+  border-style: solid;
+  border-width: 5px;
   width: 100%;
+  min-width: 50px;
+  max-width: 100px;
+  height: 100%;
+  min-height: 50px;
+  max-height: 100px;
+  font-size: 5vh;
+  display: table;
+}
+
+.inside, .insideTitle {
+  vertical-align: middle;
+  display: table-cell;
 }
 
 .button1 {
-  background-color: red;
+  color: #72a2ff;
+  background-color: #7485b0;
   grid-area: 3 / 6;
 }
 
 .button2 {
-  background-color: orange;
+  color: #bfed3c;
+  background-color: #82ce8a;
   grid-area: 4 / 6;
 }
 
 .button3 {
-  background-color: #ff0;
+  color: #e1527d;
+  background-color: #fca5d4;
   grid-area: 5 / 5;
 }
 
 .button4 {
-  background-color: green;
+  color: #7266bd;
+  background-color: #988ddd;
   grid-area: 6 / 3;
 }
 
 .button5 {
-  background-color: #00f;
+  color: #3e71bf;
+  background-color: #332d79;
   grid-area: 7 / 2;
 }
 
