@@ -164,15 +164,15 @@ a {
   grid-row: 5;
   grid-column: 5/7;
 }
-.bg > div[class="button1"] > a:link {
+.bg > div[class="button3"] > a:link {
   color: #e1527d;
   text-decoration: none;
 }
-.bg > div[class="button1"] > a:hover {
+.bg > div[class="button3"] > a:hover {
   color: #e1527d;
   text-decoration: none;
 }
-.bg > div[class="button1"] > a:visited {
+.bg > div[class="button3"] > a:visited {
   color: #e1527d;
   text-decoration: none;
 }
@@ -219,15 +219,15 @@ a {
   grid-row: 7;
   grid-column: 2/4;
 }
-.bg > div[class="button1"] > a:link {
+.bg > div[class="button5"] > a:link {
   color: #3e71bf;
   text-decoration: none;
 }
-.bg > div[class="button1"] > a:hover {
+.bg > div[class="button5"] > a:hover {
   color: #3e71bf;
   text-decoration: none;
 }
-.bg > div[class="button1"] > a:visited {
+.bg > div[class="button5"] > a:visited {
   color: #3e71bf;
   text-decoration: none;
 }
